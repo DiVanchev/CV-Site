@@ -1,0 +1,315 @@
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: green;
+  background-color: saddlebrown;
+  margin: 0;
+  padding: 0;
+}
+
+.logo-name{
+  font-size: 25px;
+  color: black;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #007BFF;
+  color: #fff;
+}
+
+td {
+  background-color: #f9f9f9;
+}
+
+.percentage-bar {
+  display: flex;
+  align-items: center;
+  height: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.percentage-fill {
+  height: 100%;
+  background-color: #007BFF;
+}
+
+.table-container {
+  width: 100%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .table-container {
+      overflow-x: auto;
+  }
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.navItems {
+  list-style: none;
+  display: flex;
+  font-size: 1.5em;
+}
+
+.navItems li {
+  margin-right: 20px;
+}
+
+.navItems a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease-in-out;
+}
+
+.navItems a:hover {
+  color: green;
+}
+
+.links {
+  display: flex;
+}
+
+.links a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease-in-out;
+}
+
+.links a:hover {
+  color: green;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.cols {
+  flex: 1;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 20px 0;
+  color: #333;
+}
+
+.multiText {
+  color: saddlebrown; 
+}
+
+.multiTText{
+  color: green;
+  font-weight: bold;
+  font-size: 20px;
+
+}
+
+p {
+  font-size: 1.2em;
+  color: #666;
+}
+
+.but button {
+  margin-right: 35px;
+  margin-top: 10px;
+  padding: 15px 30px;
+  font-size: 1em;
+  background-color:green;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.but button:hover {
+  background-color: saddlebrown; 
+}
+
+.about-me {
+  padding: 80px 0;
+}
+
+.subtitle {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.hi {
+  font-size: 1.5em;
+  color: #007BFF; 
+  margin-bottom: 10px;
+}
+
+.sub {
+  font-size: 1.2em;
+  color: black;
+}
+
+.tab-link {
+  font-size: 1.2em;
+  cursor: pointer;
+  color: #333;
+  margin-right: 20px;
+  transition: color 0.3s ease-in-out;
+}
+
+.tab-link:hover {
+  color: #007BFF; 
+}
+
+.tab-content {
+  display: none;
+}
+
+.skills {
+  margin-top: 20px;
+}
+
+
+.get-in-touch {
+  font-size: 2em;
+  margin-bottom: 30px;
+  color: black;
+  text-align: left;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-left {
+  flex: 3;
+}
+
+.contact-right {
+  flex: 1;
+  text-align: left;
+}
+
+.contact-form {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea, button {
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 1em;
+}
+
+button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #0056b3; 
+}
+
+.contact-right {
+  flex: 1;
+}
+
+.social-icons a {
+  margin-right: 10px;
+  font-size: 1.5em;
+  color: #333;
+  transition: color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+  color: #007BFF;
+}
+
+@media screen and (max-width: 768px) {
+  .navItems {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      background-color: #fff;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .navItems.show {
+      display: flex;
+  }
+
+  .navItems li {
+      margin-right: 0;
+      margin-bottom: 10px;
+  }
+
+  .wrapper {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .cols {
+      width: 100%;
+      order: 2;
+      margin-top: 30px;
+  }
+
+  .cols1 {
+      display: none;
+  }
+
+  .navItems a, .links a {
+      color: #333;
+  }
+}
