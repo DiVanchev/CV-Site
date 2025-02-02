@@ -1,4 +1,10 @@
-body, h1, h2, h3, p, ul, li {
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
   margin: 0;
   padding: 0;
 }
@@ -12,7 +18,7 @@ body {
   padding: 0;
 }
 
-.logo-name{
+.logo-name {
   font-size: 25px;
   color: black;
 }
@@ -32,7 +38,8 @@ table {
   margin-top: 20px;
 }
 
-th, td {
+th,
+td {
   padding: 15px;
   text-align: left;
   border-bottom: 1px solid #ddd;
@@ -68,7 +75,7 @@ td {
 
 @media screen and (max-width: 768px) {
   .table-container {
-      overflow-x: auto;
+    overflow-x: auto;
   }
 }
 
@@ -83,6 +90,7 @@ nav {
   align-items: center;
   padding: 20px 0;
 }
+
 .navItems {
   list-style: none;
   display: flex;
@@ -136,10 +144,10 @@ h1 {
 }
 
 .multiText {
-  color: saddlebrown; 
+  color: saddlebrown;
 }
 
-.multiTText{
+.multiTText {
   color: green;
   font-weight: bold;
   font-size: 20px;
@@ -156,7 +164,7 @@ p {
   margin-top: 10px;
   padding: 15px 30px;
   font-size: 1em;
-  background-color:green;
+  background-color: green;
   color: white;
   border: none;
   cursor: pointer;
@@ -164,7 +172,7 @@ p {
 }
 
 .but button:hover {
-  background-color: saddlebrown; 
+  background-color: saddlebrown;
 }
 
 .about-me {
@@ -179,7 +187,7 @@ p {
 
 .hi {
   font-size: 1.5em;
-  color: #007BFF; 
+  color: #007BFF;
   margin-bottom: 10px;
 }
 
@@ -197,7 +205,7 @@ p {
 }
 
 .tab-link:hover {
-  color: #007BFF; 
+  color: #007BFF;
 }
 
 .tab-content {
@@ -240,7 +248,9 @@ form {
   flex-direction: column;
 }
 
-input, textarea, button {
+input,
+textarea,
+button {
   margin-bottom: 20px;
   padding: 10px;
   font-size: 1em;
@@ -255,7 +265,7 @@ button {
 }
 
 button:hover {
-  background-color: #0056b3; 
+  background-color: #0056b3;
 }
 
 .contact-right {
@@ -275,41 +285,42 @@ button:hover {
 
 @media screen and (max-width: 768px) {
   .navItems {
-      display: none;
-      flex-direction: column;
-      position: absolute;
-      top: 60px;
-      left: 0;
-      width: 100%;
-      background-color: #fff;
-      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   }
 
   .navItems.show {
-      display: flex;
+    display: flex;
   }
 
   .navItems li {
-      margin-right: 0;
-      margin-bottom: 10px;
+    margin-right: 0;
+    margin-bottom: 10px;
   }
 
   .wrapper {
-      flex-direction: column;
-      text-align: center;
+    flex-direction: column;
+    text-align: center;
   }
 
   .cols {
-      width: 100%;
-      order: 2;
-      margin-top: 30px;
+    width: 100%;
+    order: 2;
+    margin-top: 30px;
   }
 
   .cols1 {
-      display: none;
+    display: none;
   }
 
-  .navItems a, .links a {
-      color: #333;
+  .navItems a,
+  .links a {
+    color: #333;
   }
 }
